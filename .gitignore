@@ -1,0 +1,39 @@
+# Third-party reference checkouts — restore with scripts/setup-references.sh
+references/
+
+# Dependencies
+node_modules/
+.pnpm-store/
+.bun/
+package-lock.json.bak
+
+# Build output
+dist/
+build/
+.next/
+out/
+target/
+.cache/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local state written by tooling (REA, Craft Anything, dev servers)
+.rea/
+.craft-anything/
+tmp/
+.artifacts/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
